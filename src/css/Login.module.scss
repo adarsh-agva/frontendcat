@@ -1,0 +1,50 @@
+@import "./veriables.module.scss";
+.Login {
+  padding: 30px;
+  width: 500px;
+
+  .headerText {
+    font-size: 2rem;
+    font-weight: 500;
+    color: $active_text_color;
+  }
+
+  .imputFields {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: solid rgb(226, 226, 226) 1px;
+    padding: 5px;
+
+    & span {
+      margin-left: 5px;
+    }
+
+    & input {
+      border: none !important;
+      background-color: none !important;
+    }
+
+    & svg {
+      color: $active_text_color;
+    }
+  }
+
+  // input field error
+
+  .imputFieldsError {
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    & input {
+      border: none !important;
+      background: none !important;
+    }
+
+    & svg {
+      color: $active_text_color;
+    }
+  }
+}

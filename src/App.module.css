@@ -1,0 +1,106 @@
+table tr > th {
+  background-color: #efefef !important;
+  border-bottom: none !important;
+  height: 50px !important;
+  color: black !important;
+}
+
+table thead {
+  vertical-align: middle !important;
+  border-bottom: 2px #e2e2e2 solid;
+}
+
+table tr {
+  border-bottom: 1px solid rgba(90, 90, 90, 0.234) !important;
+}
+
+tspan {
+  font-size: 11px !important;
+}
+
+.darkMode {
+  background-color: black !important;
+}
+
+.dropdown-toggle {
+  background-color: #e2e2e2 !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.row > * {
+  margin: 0%;
+  padding: 0%;
+}
+
+*:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+thead,
+th {
+  text-align: start !important;
+  font-size: 0.9rem !important;
+  color: #646464;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  thead,
+  th {
+    font-size: 0.9rem !important;
+    color: #646464;
+  }
+}
+
+tbody,
+td {
+  font-size: 0.9rem !important;
+  color: #646464;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-width: none !important;
+  border-style: none !important;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.order {
+  padding-left: 3px !important;
+}
+
+.sortable {
+  letter-spacing: 0.3px;
+}
+
+.mm-2 {
+  margin: 0.5rem !important;
+}
+
+.modal-title {
+  color: rgb(152, 0, 76) !important;
+}
+
+input {
+  border-radius: 10px !important;
+}
+
+textarea {
+  border-radius: 10px !important;
+}

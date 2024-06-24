@@ -1,0 +1,162 @@
+.ObserverParameters {
+    color: #787878;
+    width: 13rem;
+    border: 1px solid #787878;
+    padding: 1rem;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.containerTwo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.insideContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 100%;
+    background-color: black;
+}
+
+.upperModel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.liveHeading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 10px;
+    align-items: center;
+}
+
+.model_heading {
+    color: #fff;
+    font-size: 1.8rem;
+    background-color: #027140;
+    padding: 15px 35px;
+}
+
+.center_heading {
+    color: white;
+    font-size: 2rem;
+}
+
+.cross_ing {
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.charging_ing {
+    width: 20px;
+    height: 30px;
+    margin: 20px;
+}
+
+.alarm_ing {
+    width: 30px;
+}
+
+.alarmmute_ing {
+    width: 40px;
+    padding: 5px;
+}
+
+.discharging_ing {
+    width: 15px;
+    height: 30px;
+    margin: 20px;
+}
+
+.formData {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.leftDataForm {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: start;
+}
+
+.dataHeading {
+    background-color: #fff;
+    color: black;
+    padding: 0.8rem;
+}
+
+.mainData {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 4rem;
+}
+.graphData{
+    display:flex;
+    width: fit-content;
+}
+
+
+/* Styles for desktops and larger screens */
+@media (min-width: 1200px) {
+    /* Add your CSS rules for desktops here */
+    .container {
+        height: 100%;
+    }
+    .upperModel {
+        height: 100px;
+    }
+}
+
+/* Styles for laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: black;
+        height: 100%;
+        width: 200%;
+    }
+    .exitBtn{
+        visibility: hidden;
+    }
+}
+
+/* Styles for phones */

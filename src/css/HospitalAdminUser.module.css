@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+    top: 6rem;
+    margin-left:2%;
+    width:96%
+}
+.insideContainer{
+    display: flex;
+    gap: 1rem;
+}
+.cardButton{
+    margin-top: 3vw;
+}
+.onDataClick{
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 0px 50px;
+    background-color:rgb(152, 0, 76);
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding:25px;
+    height:100%;
+    text-align:center;
+    border-radius:15px
+}
+.offDataClick{
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 0px 50px;
+    background-color:white;
+    color:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding:25px;
+    height:100%;
+    text-align:center;
+    border-radius:15px
+}
+.tileText{
+font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+    .tileText{
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .tileText{
+        font-size: 12px;
+    }
+  }

@@ -1,0 +1,40 @@
+.TrandsDataTable {
+  display: flex;
+  justify-content: space-between;
+}
+.TrandsDataTable h4 {
+  color: #685af0;
+}
+.TrandsDataTable p {
+  font-size: 0.8rem;
+}
+.TrandsDataTable .Outsection {
+  display: flex;
+  justify-content: space-between;
+}
+.TrandsDataTable .Outsection h4 {
+  font-size: 1rem !important;
+  color: rgb(152, 0, 76);
+  font-weight: 500;
+}
+.TrandsDataTable .Outsection p {
+  font-size: 0.9rem !important;
+  color: #646464;
+}
+
+.Trand {
+  display: flex;
+  justify-content: space-between;
+}
+.Trand h5 {
+  font-size: 1rem !important;
+  color: rgb(152, 0, 76);
+  font-weight: 500;
+}
+.Trand p {
+  font-size: 0.9rem !important;
+  color: #646464;
+}
+.Trand section {
+  display: flex;
+}/*# sourceMappingURL=TrandData.module.css.map */

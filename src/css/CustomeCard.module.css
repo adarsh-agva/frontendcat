@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .CardCustomeOuter {
+    top: 3% !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .CardCustomeOuter {
+    top: 3% !important;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+  .CardCustomeOuter {
+    top: 4% !important;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .CardCustomeOuter {
+    top: 4% !important;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+  .CardCustomeOuter {
+    top: 4% !important;
+  }
+}/*# sourceMappingURL=CustomeCard.module.css.map */

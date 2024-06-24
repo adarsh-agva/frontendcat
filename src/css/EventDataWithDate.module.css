@@ -1,0 +1,13 @@
+.MainDiv .outerSec {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+.MainDiv p {
+  font-size: 0.9rem !important;
+  font-weight: 500;
+  color: rgb(152, 0, 76);
+}
+.MainDiv p span {
+  padding: 7px;
+}/*# sourceMappingURL=EventDataWithDate.module.css.map */

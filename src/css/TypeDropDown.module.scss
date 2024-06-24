@@ -1,0 +1,22 @@
+@import "./veriables.module.scss";
+
+.OuterDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: max-content;
+}
+
+.productVersion {
+  padding: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: $backgroundColor;
+    width: 100%;
+    padding: 5px;
+    color: $defaultTextColor;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+  }
+}

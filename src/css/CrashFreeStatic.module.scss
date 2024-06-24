@@ -1,0 +1,30 @@
+@import "./veriables.module.scss";
+// statics
+.Statics {
+  & h5 {
+    @include activeparaFontdasktopMixin;
+  }
+
+  & h4 {
+    @include activeparaFontdasktopMixin;
+  }
+  & p {
+    @include paraFontdasktopMixin;
+  }
+
+  .StaticsSection {
+    display: flex !important;
+    justify-content: space-between;
+
+    .Tooltip {
+      background-color: $filterButtonBackgroundColor;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+  }
+}

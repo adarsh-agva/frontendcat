@@ -1,0 +1,39 @@
+@import "./veriables.module.scss";
+
+.Outer_section {
+  cursor: pointer;
+
+  @media only screen and (min-width: 300px) and (max-width: 900px) {
+    width: 25px;
+    height: 25px;
+  }
+
+  @media only screen and (min-width: 900px) and (max-width: 1600px) {
+    width: 30px;
+    height: 30px;
+  }
+
+  @media only screen and (min-width: 1600px) and (max-width: 1920px) {
+    width: 40px;
+    height: 40px;
+  }
+
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.darkMode_outer {
+  background-color: $active_text_color;
+  border-radius: 100%;
+  padding: 2px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,87 @@
+.mainContainer {
+    position: relative;
+    top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dispatchContainer {
+    height: 100%;
+    width: 96%;
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 5%;
+}
+
+.dispatchForm {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+.leftForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 0.5rem;
+}
+
+.rightForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around
+}
+
+.cancelbtn {
+    width: 8rem;
+    border: 0px;
+    padding: 8px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(237, 237, 237) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 0px;
+}
+
+.continuebtn {
+    color: white;
+    width: 8rem;
+    border: 0px;
+    padding: 8px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(152, 0, 76) 0%, rgb(176, 0, 89) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 0px;
+}
+
+.textInputDetails {
+    width: 20rem;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.textInpuDiv {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 0px;
+    border-radius: 10px;
+}
+.textInputAddress {
+    padding: 10px 10px 7rem 10px;
+    width: 20rem;
+    border: 0px;
+    border-radius: 10px;
+    background: #FFF;
+}

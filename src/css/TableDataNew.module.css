@@ -1,0 +1,172 @@
+.LinkSection {
+  text-decoration: none;
+  color: #fff;
+}
+.LinkSection:hover {
+  color: rgb(152, 0, 76);
+  transition-duration: 0.3s;
+  text-decoration: underline;
+}
+
+.searchSection {
+  background-color: #efefef;
+  padding: 10px !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.224);
+}
+.searchSection input {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: solid rgb(226, 226, 226) 1px;
+  padding: 5px;
+  width: 70%;
+  height: 40px;
+}
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  .searchSection input {
+    width: 50% !important;
+  }
+}
+.searchSection .chipExportSection {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.searchSection .chipExportSection .chipInner {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.noDataFound {
+  width: 100%;
+  height: 100px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 1.3rem;
+}
+
+.sortIcons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chip {
+  background-color: rgb(152, 0, 76);
+  border-radius: 20px;
+  padding: 10px;
+  height: 30px;
+  width: 120px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 2px;
+}
+.chip p {
+  font-size: 0.8rem !important;
+}
+.chip svg {
+  color: #fff;
+}
+
+.TopButton {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.ActiveOption {
+  background-color: rgb(152, 0, 76);
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.DateSection input {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.perPageOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.perPageOuter .perPagesectionInner {
+  margin-top: 5px;
+}
+.perPageOuter .perPagesectionInnerActive {
+  background-color: rgb(152, 0, 76) !important;
+  color: #fff;
+  margin: 5px;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DefaultOption {
+  color: rgb(152, 0, 76);
+  margin: 5px;
+}
+
+.StatusInnerSecion {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.customeTable .tableHeader {
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 5% 22% 13% 20% 15% 12.5% 12.5%;
+  font-weight: 500;
+  font-size: 0.9rem !important;
+  background-color: rgba(122, 122, 122, 0.082);
+}
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  .customeTable .tableHeader {
+    grid-template-columns: 5% 25% 13% 15% 15% 14% 14%;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 5000px) {
+  .customeTable .tableHeader {
+    grid-template-columns: 5% 30% 13% 20% 15% 10% 10%;
+  }
+}
+.customeTable .tableBody {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.137);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 5% 22% 13% 20% 15% 12.5% 12.5%;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  .customeTable .tableBody {
+    grid-template-columns: 5% 25% 13% 15% 15% 14% 14%;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 5000px) {
+  .customeTable .tableBody {
+    grid-template-columns: 5% 30% 13% 20% 15% 10% 10%;
+  }
+}
+.customeTable .logMsg {
+  text-decoration: none;
+  cursor: pointer !important;
+}/*# sourceMappingURL=TableDataNew.module.css.map */

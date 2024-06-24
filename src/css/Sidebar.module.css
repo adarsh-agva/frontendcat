@@ -1,0 +1,233 @@
+.sidebarOuter {
+  position: fixed;
+  z-index: 10;
+  width: 16.7%;
+  height: 100vh;
+}
+.sidebarOuter .Sidebar {
+  height: 100%;
+  background-image: url("../assets/images/background.png");
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebarOuter .Sidebar .LogoSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+.sidebarOuter .Sidebar .LogoSection img {
+  width: 20%;
+  height: 20%;
+}
+.sidebarOuter .Sidebar .ClickSlideSection {
+  flex: 1;
+}
+.navMenuIcons {
+  height: 100%;
+}
+/* Styles for desktops and larger screens */
+@media (min-width: 1200px) {
+  /* Add your CSS rules for desktops here */
+  .sidebarOuter {
+    position: fixed;
+    z-index: 10;
+    width: 16.7%;
+    height: 100vh;
+  }
+  .sidebarOuter .Sidebar {
+    height: 100%;
+    background-image: url("../assets/images/background.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sidebarOuter .Sidebar .LogoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .sidebarOuter .Sidebar .LogoSection img {
+    width: 20px;
+    height: 20px;
+  }
+  .sidebarOuter .Sidebar .ClickSlideSection {
+    flex: 1;
+  }
+  .navMenuIcons {
+    height: 100%;
+  }
+  .ComponyLogo{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Styles for laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Add your CSS rules for laptops here */
+  .sidebarOuter {
+    position: fixed;
+    z-index: 10;
+    width: 16.7%;
+    height: 100vh;
+  }
+  .sidebarOuter .Sidebar {
+    height: 100%;
+    background-image: url("../assets/images/background.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sidebarOuter .Sidebar .LogoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .sidebarOuter .Sidebar .LogoSection img {
+    width: 20px;
+    height: 20px;
+  }
+  .sidebarOuter .Sidebar .ClickSlideSection {
+    flex: 1;
+  }
+  .navMenuIcons {
+    height: 100%;
+  }
+  .ComponyLogo{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Add your CSS rules for tablets here */
+  .sidebarOuter {
+    position: fixed;
+    z-index: 10;
+    width: 16.7%;
+    height: 100vh;
+  }
+  .sidebarOuter .Sidebar {
+    height: 100%;
+    background-image: url("../assets/images/background.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sidebarOuter .Sidebar .LogoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .sidebarOuter .Sidebar .LogoSection img {
+    width: 20px;
+    height: 20px;
+  }
+  .sidebarOuter .Sidebar .ClickSlideSection {
+    flex: 1;
+  }
+  .navMenuIcons {
+    height: 100%;
+  }
+  .ComponyLogo{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Styles for phones */
+@media (max-width: 767px) {
+  /* Add your CSS rules for phones here */
+  .sidebarOuter {
+    position: fixed;
+    z-index: 10;
+    width: 8%;
+    height: 100vh;
+  }
+  .sidebarOuter .Sidebar {
+    height: 100%;
+    background-image: url("../assets/images/background.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sidebarOuter .Sidebar .LogoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .sidebarOuter .Sidebar .LogoSection img {
+    width: 50%;
+  }
+  .sidebarOuter .Sidebar .ClickSlideSection {
+    flex: 1;
+  }
+  .navMenuIcons {
+    height: 100%;
+  }
+  .ComponyLogo{
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 425px) {
+  /* Add your CSS rules for phones here */
+  .sidebarOuter {
+    position: fixed;
+    z-index: 10;
+    width: 8%;
+    height: 100vh;
+  }
+  .sidebarOuter .Sidebar {
+    height: 100%;
+    background-image: url("../assets/images/background.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sidebarOuter .Sidebar .LogoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .sidebarOuter .Sidebar .LogoSection img {
+    width: 100px;
+    height: 50px;
+  }
+  .sidebarOuter .Sidebar .ClickSlideSection {
+    flex: 1;
+  }
+  .navMenuIcons {
+    height: 100%;
+  }
+  .ComponyLogo{
+    width: 40px;
+    height: 40px;
+  }
+}

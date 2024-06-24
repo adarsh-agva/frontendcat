@@ -1,0 +1,406 @@
+@import "./veriables.module.scss";
+@import "./mediaQuery.scss";
+
+.sidebarOuter {
+  position: fixed;
+  z-index: 10;
+  width: 16.7%;
+  height: 100vh;
+  .Sidebar {
+    height: 100%;
+    background-image: url("../assets/images/background.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+
+    // media query for logcat logo -------------------------- with sidebar
+    @include sm {
+      .LogcatLogo {
+        padding: 9px 0px;
+
+        width: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+      }
+      .ComponyLogo {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+
+        & p {
+          color: #fff;
+          font-size: 0.7rem;
+        }
+
+        & img {
+          width: 30%;
+        }
+      }
+    }
+
+    @include md {
+      .LogcatLogo {
+        padding: 9px 0px;
+
+        width: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+      }
+      .ComponyLogo {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+
+        & p {
+          color: #fff;
+        }
+
+        & img {
+          width: 30%;
+        }
+      }
+    }
+
+    @include lg {
+      .LogcatLogo {
+        padding: 11px 0px;
+
+        width: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+      }
+      .ComponyLogo {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+
+        & p {
+          color: #fff;
+        }
+
+        & img {
+          width: 30%;
+        }
+      }
+    }
+
+    @include xl {
+      .LogcatLogo {
+        padding: 11px 0px;
+
+        width: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+      }
+      .ComponyLogo {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+
+        & p {
+          color: #fff;
+        }
+
+        & img {
+          width: 30%;
+        }
+      }
+    }
+
+    // ------------------------------------------------------------------------------------------------------
+
+    .LogoSection {
+      width: 100%;
+      // height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+      & img {
+        width: 20% !important;
+        height: 20% !important;
+      }
+    }
+
+    .linkSection {
+      @include sm {
+        .linkActive {
+          padding: 0px 12px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          background-color: $active_text_color;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+      @include md {
+        .linkActive {
+          padding: 0px 10px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          background-color: $active_text_color;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+      @include lg {
+        .linkActive {
+          padding: 0px 14px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          background-color: $active_text_color;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+      @include lg-md {
+        .linkActive {
+          padding: 0px 18px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          background-color: $active_text_color;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      @include lg-xl {
+        .linkActive {
+          padding: 0px 25px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          background-color: $active_text_color;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      @include xl {
+        .linkActive {
+          padding: 0px 25px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          background-color: $active_text_color;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      @include sm {
+        .linkInActive {
+          padding: 0px 12px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          margin-bottom: 5px;
+
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+      @include md {
+        .linkInActive {
+          padding: 0px 10px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+      @include lg {
+        .linkInActive {
+          padding: 0px 14px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          margin-bottom: 5px;
+
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      @include lg-md {
+        .linkInActive {
+          padding: 0px 18px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      @include lg-xl {
+        .linkInActive {
+          padding: 0px 25px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+
+      @include xl {
+        .linkInActive {
+          padding: 0px 25px;
+          display: flex !important;
+          justify-content: flex-start !important;
+          align-items: center !important;
+          margin-bottom: 5px;
+          .linkData {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: #fff;
+
+            & section {
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .ClickSlideSection {
+      flex: 1;
+    }
+  }
+}
+
+.navMenuIcons {
+  height: 100%;
+}

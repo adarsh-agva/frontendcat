@@ -1,0 +1,162 @@
+.searchSection {
+  background-color: #efefef;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.224);
+}
+.searchSection input {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: solid rgb(226, 226, 226) 1px;
+  padding: 5px;
+  width: 60%;
+  height: 40px;
+}
+.Tabs{
+  display: flex;
+  padding:14px 18px;
+ font-weight: 200;
+ background-color: rgba(122, 122, 122, 0.082);
+ background-color: #98004c;
+ justify-content: space-between;
+ border-radius: 20px 20px 0px 0px;
+ align-items: center;
+}
+.Tabs button{
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: large;
+  background-color: #98004c;
+}
+.searchSection .filterGraphFirstSection {
+  cursor: pointer;
+  background-color: rgb(152, 0, 76);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 75%;
+}
+.searchSection .filterGraphFirstSection svg {
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.filterWithDate {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  font-size: 0.9rem !important;
+  color: #646464;
+  cursor: pointer;
+}
+.filterWithDate .datafilter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterWithDate input {
+  margin-left: 10px;
+}
+#selectAll{
+  height: 20px;
+  width:10px;
+}
+
+.noDataFound {
+  width: 100%;
+  height: 100px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 1.3rem;
+}
+
+.productVersion {
+  padding: 5px;
+  cursor: pointer;
+}
+.productVersion:hover {
+  background-color: rgb(152, 0, 76);
+  width: 100%;
+  margin: 5px;
+  color: #fff;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.alertTable .tableHeader {
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 5% 15% 10% 10% 10% 12% 15% 19% 5%;
+  font-weight: 500;
+  font-size: 0.9rem !important;
+  background-color: rgba(122, 122, 122, 0.082);
+}
+.regbtn{
+  display: none;
+}
+.detialsOfDid{
+  padding: 1rem;
+  border-top: 1rem;
+  width: 10rem;
+  height: 7rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+.container{
+  width: 100%;
+  padding: 1rem;
+  top: 12%;
+  position: absolute;
+}
+.overflowdiv{
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+/* Styles for desktops and larger screens */
+@media (min-width: 1200px) {
+  /* Add your CSS rules for desktops here */
+
+}
+
+/* Styles for laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/* Styles for phones */
+@media (max-width: 767px) {
+  .rotate{
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  /* Add your CSS rules for phones here */
+  /* .container{
+    width: 80%;
+  } */
+}

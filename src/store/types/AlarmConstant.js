@@ -1,0 +1,4 @@
+// USER PASSWORD CHANGE
+export const ALARM_REQUEST = "ALARM_REQUEST";
+export const ALARM_SUCCESS = "ALARM_SUCCESS";
+export const ALARM_FAIL = "ALARM_FAIL";

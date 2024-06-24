@@ -1,0 +1,60 @@
+@import "./veriables.module.scss";
+
+.ToggleTabs {
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  justify-content: space-around;
+  background-color: $filterButtonBackgroundColor;
+  & p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      @include headingFonttabletMixin;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1400px) {
+      @include headingFontLaptopMixin;
+    }
+    @media screen and (min-width: 1400px) and (max-width: 1920px) {
+      @include headingFontdasktopMixin;
+    }
+  }
+}
+
+.ToggleTabs_active {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $backgroundColor;
+
+  & p {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    color: $defaultTextColor;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      @include ActiveheadingFonttabletMixin;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1400px) {
+      @include ActiveheadingFontLaptopMixin;
+    }
+    @media screen and (min-width: 1400px) and (max-width: 1920px) {
+      @include ActiveheadingFontdasktopMixin;
+    }
+  }
+}
+
+.DataTogleSection {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  & p {
+    @include paraFontdasktopMixin;
+  }
+}

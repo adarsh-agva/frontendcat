@@ -1,0 +1,28 @@
+.Statics h5 {
+  font-size: 1rem !important;
+  color: rgb(152, 0, 76);
+  font-weight: 500;
+}
+.Statics h4 {
+  font-size: 1rem !important;
+  color: rgb(152, 0, 76);
+  font-weight: 500;
+}
+.Statics p {
+  font-size: 0.9rem !important;
+  color: #646464;
+}
+.Statics .StaticsSection {
+  display: flex !important;
+  justify-content: space-between;
+}
+.Statics .StaticsSection .Tooltip {
+  background-color: #e2e2e2;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 100%;
+  cursor: pointer;
+}/*# sourceMappingURL=CrashFreeStatic.module.css.map */

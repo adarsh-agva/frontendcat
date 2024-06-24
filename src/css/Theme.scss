@@ -1,0 +1,442 @@
+@import "./mediaQuery.scss";
+@import "./veriables.module.scss";
+
+// dark mode css
+.light-theme {
+  background: #212121 !important;
+  overflow-x: hidden !important;
+
+  .card {
+    background-color: #262626;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.45) !important;
+    border-radius: 0px;
+  }
+
+  td {
+    color: #fff !important;
+  }
+
+  // create project
+  .darkModeColor {
+    color: #fff !important;
+  }
+
+  .cpactiveText {
+    color: rgb(152, 0, 76);
+  }
+
+  // table data
+  .TDsec {
+    background-color: rgb(152, 0, 76) !important;
+  }
+
+  .TBSED {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  // stack data
+  .darkModebgColor {
+    background-color: #c6d3ff !important;
+  }
+
+  // input
+  .darkBgColorSec {
+    background-color: #fff;
+  }
+}
+
+// sidebar css
+.sidebar {
+  // sidebar
+
+  @include sm {
+    .noSidebar {
+      width: 6% !important;
+    }
+  }
+
+  @include md {
+    .noSidebar {
+      width: 4% !important;
+    }
+  }
+
+  @include lg {
+    .noSidebar {
+      width: 4% !important;
+    }
+  }
+
+  @include xl {
+    .noSidebar {
+      width: 4% !important;
+    }
+  }
+
+  .noSidebar {
+    // background-color: red;
+    transition-delay: 0.1s;
+    transition-duration: 0.3s;
+
+    @include sm {
+      .noSidbarInner {
+        // logcat logo without sidebar context----------------------
+
+        .sidebarMenu {
+          padding: 12px 0px;
+          // logcat logo without sidebar ----------------------------------------------
+          .noSideBarLogcatLogo {
+            img {
+              width: 25px !important;
+              height: 30px !important;
+            }
+          }
+        }
+      }
+      .componyLogo {
+        & img {
+          width: 40px !important;
+          height: 40px !important;
+        }
+      }
+    }
+
+    @include md {
+      .noSidbarInner {
+        // background-color: re;
+        // logcat logo without sidebar context----------------------
+
+        .sidebarMenu {
+          padding: 12px 0px;
+          // background-color: red;
+          // logcat logo without sidebar ----------------------------------------------
+          .noSideBarLogcatLogo {
+            img {
+              width: 25px !important;
+              height: 30px !important;
+            }
+          }
+        }
+      }
+      .componyLogo {
+        & img {
+          width: 45px !important;
+          height: 45px !important;
+        }
+      }
+    }
+
+    @include lg {
+      .noSidbarInner {
+        // background-color: red !important;
+
+        // logcat logo without sidebar context----------------------
+
+        .sidebarMenu {
+          padding: 14px 0px;
+          // background-color: red;
+          // logcat logo without sidebar ----------------------------------------------
+          .noSideBarLogcatLogo {
+            img {
+              width: 25px !important;
+              height: 30px !important;
+            }
+          }
+        }
+      }
+      .componyLogo {
+        & img {
+          width: 50px !important;
+          height: 50px !important;
+        }
+      }
+    }
+
+    @include lg-md {
+      .noSidbarInner {
+        // background-color: red !important;
+
+        // logcat logo without sidebar context----------------------
+
+        .sidebarMenu {
+          padding: 14px 0px;
+          // background-color: red;
+          // logcat logo without sidebar ----------------------------------------------
+          .noSideBarLogcatLogo {
+            img {
+              width: 25px !important;
+              height: 30px !important;
+            }
+          }
+        }
+      }
+      .componyLogo {
+        & img {
+          width: 50px !important;
+          height: 50px !important;
+        }
+      }
+    }
+
+    @include lg-xl {
+      .noSidbarInner {
+        // background-color: red !important;
+
+        // logcat logo without sidebar context----------------------
+
+        .sidebarMenu {
+          padding: 14px 0px;
+          // background-color: red;
+          // logcat logo without sidebar ----------------------------------------------
+          .noSideBarLogcatLogo {
+            img {
+              width: 25px !important;
+              height: 30px !important;
+            }
+          }
+        }
+      }
+      .componyLogo {
+        & img {
+          width: 50px !important;
+          height: 50px !important;
+        }
+      }
+    }
+
+    @include xl {
+      .noSidbarInner {
+        // background-color: red !important;
+
+        // logcat logo without sidebar context----------------------
+
+        .sidebarMenu {
+          padding: 15px 0px;
+          // background-color: red;
+          // logcat logo without sidebar ----------------------------------------------
+          .noSideBarLogcatLogo {
+            img {
+              width: 25px !important;
+              height: 30px !important;
+            }
+          }
+        }
+      }
+      .componyLogo {
+        & img {
+          width: 70px !important;
+          height: 70px !important;
+        }
+      }
+
+      // ----------------------------------------------------------------------------------------
+
+      // background-color: red !important;
+    }
+
+    .noSideBarLinkOuter {
+      display: flex;
+      width: 100%;
+      justify-content: center !important;
+    }
+
+    .noSideBarLink {
+      padding: 10px 0px !important;
+    }
+
+    .sidebarMenu {
+      padding: 12px 0px;
+    }
+
+    .hidelinkName {
+      display: none;
+    }
+
+    .hideComponyName {
+      display: none;
+    }
+
+    // compony logo
+  }
+
+  // navbar
+
+  // container
+  @include sm {
+    .container {
+      margin-left: 7%;
+      // transition-duration: .3s !important;
+    }
+  }
+  @include md {
+    .container {
+      margin-left: 7%;
+      // transition-duration: .3s !important;
+    }
+  }
+
+  @include lg {
+    .container {
+      margin-left: 8%;
+      // transition-duration: .3s !important;
+    }
+  }
+
+  @include lg-md {
+    .container {
+      margin-left: 8%;
+      // transition-duration: .3s !important;
+    }
+  }
+  @include lg-xl {
+    .container {
+      margin-left: 12%;
+      // transition-duration: .3s !important;
+    }
+  }
+
+  @include xl {
+    .container {
+      margin-left: 15%;
+      // transition-duration: .3s !important;
+    }
+  }
+}
+
+// navbar with sidebar
+
+@include sm {
+  .navBarDetails {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-right: 142px;
+    width: 120px;
+
+    .AvatarSectionSidbar {
+      background-color: #fff !important;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+    }
+  }
+}
+@include md {
+  .navBarDetails {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-right: 209px;
+    width: 130px;
+    .AvatarSectionSidbar {
+      background-color: #fff !important;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+}
+@include lg {
+  .navBarDetails {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-right: 260px;
+    width: 120px;
+    .AvatarSectionSidbar {
+      background-color: #fff !important;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+}
+@include lg-md {
+  .navBarDetails {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-right: 251px;
+    width: 130px;
+    .AvatarSectionSidbar {
+      background-color: #fff !important;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+}
+@include lg-xl {
+  .navBarDetails {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-right: 333px;
+    width: 140px;
+    .AvatarSectionSidbar {
+      background-color: #fff !important;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 38px;
+      height: 38px;
+      cursor: pointer;
+    }
+  }
+}
+@include xl {
+  .navBarDetails {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-right: 341px;
+    width: 150px;
+    .AvatarSectionSidbar {
+      background-color: #fff !important;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+}
+
+// pagination
+
+.pagination {
+  & li {
+    border-radius: 5px;
+    & a {
+      text-decoration: none;
+      color: $active_text_color;
+    }
+  }
+}
+

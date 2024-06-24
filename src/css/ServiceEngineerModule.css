@@ -1,0 +1,97 @@
+.container {
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  
+  .user-info p {
+    color: black;
+  }
+  
+  .user-info span {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: lighter;
+  }
+  
+  .milestones {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .milestone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+  }
+  
+  .date-picker {
+    padding: 0.1rem;
+  }
+  
+  .section {
+    padding: 1rem 0;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-header h2 {
+    font-size: 4vw;
+    font-weight: 400;
+  }
+  
+  .section-header h6 {
+    font-size: 3vw;
+  }
+  
+  .item-card {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .actions button {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .actions button:nth-child(1) {
+    background-color: #ffbf00;
+  }
+  
+  .actions button:nth-child(2) {
+    background-color: green;
+  }
+  
+  .actions button:nth-child(3) {
+    background-color: rgb(152, 0, 76);
+  }
+  
+  @media (max-width: 768px) {
+    .milestones, .actions {
+      gap: 1rem;
+    }
+  }

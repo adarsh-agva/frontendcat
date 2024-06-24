@@ -1,0 +1,92 @@
+.mainDiv{
+    position:relative;
+    top: 6.5rem;
+    margin-left: 1%;
+    width:98%;
+  }.topHeading{
+      display: flex;
+      flex-direction: column;
+  }
+  .deviceSummary{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+  }
+  .backImage{
+      width: 3rem;
+  }
+  .NavbarColumn {
+    width: 100%;
+  }
+  .noDataFound {
+    width: 100%;
+    height: 100px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 1.3rem;
+  }
+  .insideOuterTable {
+      display: flex;
+      flex-direction: column;
+      overflow-x: auto;
+      gap: 1rem;
+      width: 100rem;
+      background: 0% 0% no-repeat padding-box rgb(152, 0, 76);
+      box-shadow: 0px 0px 50px #00000029;
+      border-radius: 20px 20px 0px 0px;
+      height: fit-content;
+      padding: "1rem";
+    }
+    .insideHeadingData{
+      color: white;
+      width: 10.5rem;
+      text-align: center;
+    }
+    .userInsideData{
+      text-align: center;
+      width: 9rem;
+      margin: 0.8rem;
+      font-size: 0.8rem;
+      text-align: center;
+      padding: 0.8rem;
+    }
+    .heading {
+      margin: auto;
+      font-size: 1.9rem;
+      color: #707070;
+    }
+    .viewBtn{
+      width: 4rem;
+      padding: 8px;
+      border: 0px;
+      color: white;
+      background-color: rgb(152, 0, 76);
+      border-radius: 10px;
+    }
+    .userDataDiv{
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      align-items: center;
+    }
+    .viewBtnDiv{
+      text-align: center;
+      margin: 0.8rem;
+    }
+    .tableDataStart{
+      width: 100rem;
+      display: flow;
+    }
+    .searchBtn{
+      display: flex;
+      align-items: center;
+      background-color: rgb(152, 0, 76);
+      color: white;
+      padding: 10px;
+      height: 40px;
+      margin: 5px;
+      border: 0px;
+      border-radius: 10px;
+    }

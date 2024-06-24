@@ -1,0 +1,16 @@
+@import "./veriables.module.scss";
+
+.MainDiv {
+  .outerSec {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+  }
+
+  & p {
+    @include headingFontdasktopMixin;
+    & span {
+      padding: 7px;
+    }
+  }
+}

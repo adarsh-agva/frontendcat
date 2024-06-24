@@ -1,0 +1,10 @@
+export const TABLE_DATA_STATE = "TABLE_DATA_STATE";
+export const DIFF_DATE = "DIFF_DATE";
+export const DISABLE_BUTTON = "DISABLE_BUTTON";
+export const DATE_DROPDOWN = "DATE_DROPDOWN";
+export const SHOW_TABLE_FIELDS = "SHOW_TABLE_FIELDS";
+export const RECORDS = "RECORDS";
+export const PROJECT_CODE = "PROJECT_CODE";
+export const SEARCH_FIELD = "SEARCH_FIELD";
+export const SORT_ICONS = "SORT_ICONS";
+export const ALL_ROW_SELECTED = "ALL_ROW_SELECTED";

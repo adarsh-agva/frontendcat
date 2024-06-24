@@ -1,0 +1,167 @@
+.searchSection {
+  background-color: #efefef;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.224);
+}
+.searchSection input {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: solid rgb(226, 226, 226) 1px;
+  padding: 5px;
+  width: 60%;
+  height: 40px;
+}
+.Tabs{
+ margin-right: 50px;
+ font-weight: 200;
+ background-color: rgba(122, 122, 122, 0.082);
+ 
+}
+.Tabs button{
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: large;
+}
+.searchSection .filterGraphFirstSection {
+  cursor: pointer;
+  background-color: rgb(152, 0, 76);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: auto !important;
+}
+.searchSection .filterGraphFirstSection svg {
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.filterWithDate {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  font-size: 0.9rem !important;
+  color: #646464;
+  cursor: pointer;
+}
+.filterWithDate .datafilter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterWithDate input {
+  margin-left: 10px;
+}
+#selectAll{
+  height: 20px;
+  width:10px;
+}
+
+.noDataFound {
+  width: 100%;
+  height: 100px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 1.3rem;
+  box-shadow: 0px 0px 50px #00000029;
+}
+
+.productVersion {
+  padding: 5px;
+  cursor: pointer;
+}
+.productVersion:hover {
+  background-color: rgb(152, 0, 76);
+  width: 100%;
+  margin: 5px;
+  color: #fff;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.alertTable .tableHeader {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 0.9rem !important;
+  /* background-color: rgba(122, 122, 122, 0.082); */
+}
+.regbtn{
+  display: none;
+}
+.tableBody{
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+.insideTextData{
+  margin: 0.8rem;
+  width: 10rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.tableHeadingData{
+  /* margin-right: '10px'; */
+  font-weight: '600';
+  text-align: center;
+  font-size: '.9rem';
+  width: 10rem;
+}
+/* Styles for desktops and larger screens */
+@media (min-width: 1200px) {
+/* Add your CSS rules for desktops here */
+
+}
+
+/* Styles for laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+.alertTable {
+  overflow-x: auto;
+ }
+.alertTable .tableHeader{
+  gap: 1.5rem;
+}
+.insideTextData{
+  font-size: 0.7rem;
+}
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+.alertTable {
+overflow-x: auto;
+}
+.alertTable .tableHeader{
+gap: 1.5rem;
+}
+.insideTextData{
+font-size: 0.7rem;
+}
+}
+
+/* Styles for phones */
+@media (max-width: 767px) {
+/* Add your CSS rules for phones here */
+.alertTable {
+  overflow-x: auto;
+ }
+ .alertTable .tableHeader{
+  gap: 1.5rem;
+}
+.insideTextData{
+  font-size: 0.7rem;
+}
+}

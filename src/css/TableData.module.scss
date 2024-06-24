@@ -1,0 +1,180 @@
+@import "./veriables.module.scss";
+
+.OuterTable {
+  .BootstrapTable {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: $tableHaderBackgorundColor;
+    & input {
+      height: 35px !important;
+    }
+
+    .searchbar {
+      // border: 2px solid red;
+      width: 100%;
+
+      & label {
+        width: 100%;
+      }
+
+      & input {
+        font-size: 0.9rem;
+      }
+    }
+
+    .chipOuter {
+      width: 40% !important;
+      display: grid;
+      height: auto !important;
+
+      /* define the number of grid columns */
+      grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+      margin-right: 5px;
+      margin-left: 5px;
+      // border: 2px solid red;
+    }
+
+    .chip {
+      background-color: $backgroundColor;
+      border-radius: 20px;
+      padding: 10px;
+      height: 30px;
+      width: 120px;
+      display: flex !important;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      margin: 2px;
+
+      & p {
+        font-size: 0.8rem !important;
+      }
+      & svg {
+        color: #fff;
+      }
+
+      // color: $stackBackgroundColor;
+    }
+
+    & button {
+      color: $defaultTextColor !important;
+      height: 35px !important;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    border-bottom: $borderBottom;
+
+    .GoogleDirve {
+      display: flex;
+      justify-content: center;
+    }
+
+    .filterOptions {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 20px;
+    }
+  }
+}
+.TopButton {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.ViewButton {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50px !important;
+  color: $backgroundColor;
+}
+
+.ActiveOption {
+  background-color: $backgroundColor;
+  color: $defaultTextColor;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.DateSection {
+  & input {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+  }
+}
+
+.perPageOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .perPagesectionInner {
+    margin-top: 5px;
+  }
+  .perPagesectionInnerActive {
+    background-color: $backgroundColor !important;
+    color: $defaultTextColor;
+    padding: 5px;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.DefaultOption {
+  color: $active_text_color;
+  padding: 5px;
+}
+
+.StatusInnerSecion {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+// react bootstrap table css
+.expandedRow {
+  // height: 20px !important;
+  &:hover {
+    color: $active_text_color;
+    text-decoration: underline;
+  }
+  cursor: pointer;
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    width: 90% !important;
+    overflow: hidden !important;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1920px) {
+    width: 90% !important;
+    // background-color: red !important;
+    overflow: hidden !important;
+  }
+}
+
+// updated css
+.dataSection {
+  & svg {
+    color: red !important;
+  }
+}

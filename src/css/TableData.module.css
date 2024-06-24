@@ -1,0 +1,160 @@
+.OuterTable .BootstrapTable {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #efefef;
+  border-bottom: 1px solid rgba(90, 90, 90, 0.234);
+}
+.OuterTable .BootstrapTable input {
+  height: 35px !important;
+}
+.OuterTable .BootstrapTable .searchbar {
+  width: 100%;
+}
+.OuterTable .BootstrapTable .searchbar label {
+  width: 100%;
+}
+.OuterTable .BootstrapTable .searchbar input {
+  font-size: 0.9rem;
+}
+.OuterTable .BootstrapTable .chipOuter {
+  width: 40% !important;
+  display: grid;
+  height: auto !important;
+  /* define the number of grid columns */
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.OuterTable .BootstrapTable .chip {
+  background-color: rgb(152, 0, 76);
+  border-radius: 20px;
+  padding: 10px;
+  height: 30px;
+  width: 120px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 2px;
+}
+.OuterTable .BootstrapTable .chip p {
+  font-size: 0.8rem !important;
+}
+.OuterTable .BootstrapTable .chip svg {
+  color: #fff;
+}
+.OuterTable .BootstrapTable button {
+  color: #fff !important;
+  height: 35px !important;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OuterTable .BootstrapTable .GoogleDirve {
+  display: flex;
+  justify-content: center;
+}
+.OuterTable .BootstrapTable .filterOptions {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.TopButton {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.ViewButton {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50px !important;
+  color: rgb(152, 0, 76);
+}
+
+.ActiveOption {
+  background-color: rgb(152, 0, 76);
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.DateSection input {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.perPageOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.perPageOuter .perPagesectionInner {
+  margin-top: 5px;
+}
+.perPageOuter .perPagesectionInnerActive {
+  background-color: rgb(152, 0, 76) !important;
+  color: #fff;
+  padding: 5px;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DefaultOption {
+  color: rgb(152, 0, 76);
+  padding: 5px;
+}
+
+.StatusInnerSecion {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.expandedRow {
+  cursor: pointer;
+}
+.expandedRow:hover {
+  color: rgb(152, 0, 76);
+  text-decoration: underline;
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .expandedRow {
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .expandedRow {
+    width: 90% !important;
+    overflow: hidden !important;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+  .expandedRow {
+    width: 90% !important;
+    overflow: hidden !important;
+  }
+}
+
+.dataSection svg {
+  color: red !important;
+}/*# sourceMappingURL=TableData.module.css.map */

@@ -1,0 +1,37 @@
+.Outer_section {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .Outer_section {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1600px) {
+  .Outer_section {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+  .Outer_section {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.darkMode_outer {
+  background-color: rgb(152, 0, 76);
+  border-radius: 100%;
+  padding: 2px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=DarkLightMode.module.css.map */

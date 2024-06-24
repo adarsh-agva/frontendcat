@@ -1,0 +1,35 @@
+.mainContainer {
+  margin-top: 70px;
+}
+
+.AnalyticsEvents {
+  display: flex;
+  justify-content: flex-start;
+}
+.AnalyticsEvents p {
+  font-size: 0.9rem !important;
+  color: #646464;
+}
+.AnalyticsEvents .PrevNext {
+  display: flex;
+}
+.AnalyticsEvents .PrevNext section {
+  width: 30px;
+  height: 30px;
+  background-color: #e2e2e2;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px !important;
+}
+
+.AnalyticsNavigation {
+  width: 100% !important;
+}
+
+.paraTextIssue {
+  font-size: 0.9rem !important;
+  color: #646464;
+  color: #000;
+}/*# sourceMappingURL=Analytics.module.css.map */

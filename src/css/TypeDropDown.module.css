@@ -1,0 +1,22 @@
+.OuterDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.productVersion {
+  padding: 5px;
+  cursor: pointer;
+}
+.productVersion:hover {
+  background-color: rgb(152, 0, 76);
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  transition-duration: 0.3s;
+  border-radius: 5px;
+}/*# sourceMappingURL=TypeDropDown.module.css.map */

@@ -1,0 +1,39 @@
+@import "./veriables.module.scss";
+
+.mainContainer {
+  margin-top: 70px;
+}
+
+.AnalyticsEvents {
+  display: flex;
+  justify-content: flex-start;
+
+  & p {
+    @include paraFontdasktopMixin;
+  }
+
+  .PrevNext {
+    display: flex;
+
+    & section {
+      width: 30px;
+      height: 30px;
+      background-color: $filterButtonBackgroundColor;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: $cardBorderRadius;
+    }
+  }
+}
+
+.AnalyticsNavigation {
+  width: 100% !important;
+}
+
+.paraTextIssue {
+  @include paraFontdasktopMixin;
+  color: #000;
+  // $active_text_color;
+}

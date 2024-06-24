@@ -1,0 +1,15 @@
+.otpContainer {
+  display: flex !important;
+  justify-content: center;
+}
+.otpContainer .optInput {
+  display: flex !important;
+  border: none !important;
+  width: 10% !important;
+  height: 40px;
+  text-align: center;
+  margin: 2px;
+  border-radius: 5px !important;
+  border: 1px solid rgba(0, 0, 0, 0.312) !important;
+  color: #000;
+}/*# sourceMappingURL=OtpInput.module.css.map */

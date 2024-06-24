@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b6f8cfe0.css",
+    "main.js": "/static/js/main.6c6c2aaf.js",
+    "static/js/27.6cd96770.chunk.js": "/static/js/27.6cd96770.chunk.js",
+    "static/media/banner.png": "/static/media/banner.7dfbefcf05dc251192a2.png",
+    "static/media/ddLoader.gif": "/static/media/ddLoader.791cdb34c2d801c18ef2.gif",
+    "static/media/insulin.png": "/static/media/insulin.64c33aaccd83305ee06b.png",
+    "static/media/loginImg.jpg": "/static/media/loginImg.de60760b2adcc761b63e.jpg",
+    "static/media/emergency.png": "/static/media/emergency.68cced12860fb7323a39.png",
+    "static/media/sedation.png": "/static/media/sedation.b018b4168e526dec94bc.png",
+    "static/media/lgnewsmall.png": "/static/media/lgnewsmall.f42f4b5c179347e5c956.png",
+    "static/media/patientMonitor.png": "/static/media/patientMonitor.803824a04029763f3a59.png",
+    "static/media/AgVaCrop.png": "/static/media/AgVaCrop.ef29e84cbb59d7421459.png",
+    "static/media/production.png": "/static/media/production.e9026212cf2e92d7c2bf.png",
+    "static/media/LgLargeIcon.png": "/static/media/LgLargeIcon.09ae489594389e7ac164.png",
+    "static/media/background.png": "/static/media/background.6d5be87c7dd9d13629ff.png",
+    "static/media/alarmumute-2.png": "/static/media/alarmumute-2.bc025fb45f736f9202b0.png",
+    "static/media/accounting.png": "/static/media/accounting.08b748eb07ac47bd7d54.png",
+    "static/media/sidebar-vertical.png": "/static/media/sidebar-vertical.9eec60ac1e1f98773e32.png",
+    "static/media/installation.png": "/static/media/installation.68963ce21305d2d61c82.png",
+    "static/media/production-2.png": "/static/media/production-2.11f67cc6c22f1c392fd3.png",
+    "static/media/AlarmIcon.png": "/static/media/AlarmIcon.393cbfabe032935ff150.png",
+    "static/media/delivery.png": "/static/media/delivery.4029dc872b75aa412735.png",
+    "static/media/dispatchList.png": "/static/media/dispatchList.418d0a3bfd01271a73b8.png",
+    "static/media/shield.png": "/static/media/shield.18353974b993f9a82630.png",
+    "static/media/dispatch.png": "/static/media/dispatch.6e5490cb88fbe224da4c.png",
+    "static/media/Production.png": "/static/media/Production.d0c1df7d8e5370bd3a90.png",
+    "static/media/yellowDot.avif": "/static/media/yellowDot.c15f00b6f89ef277418e.avif",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b6f8cfe0.css",
+    "static/js/main.6c6c2aaf.js"
+  ]
+}

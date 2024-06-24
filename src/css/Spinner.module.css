@@ -1,0 +1,17 @@
+.loader {
+  width: 300px;
+  height: 300px;
+  filter: brightness(1.75);
+  image-rendering: optimizeQuality;
+  filter: saturate(1);
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Spinner.module.css.map */

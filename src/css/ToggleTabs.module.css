@@ -1,0 +1,78 @@
+.ToggleTabs {
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  justify-content: space-around;
+  background-color: #e2e2e2;
+}
+.ToggleTabs p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .ToggleTabs p {
+    font-size: 0.7rem !important;
+    font-weight: 500;
+    color: rgb(152, 0, 76);
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .ToggleTabs p {
+    font-size: 0.8rem !important;
+    font-weight: 500;
+    color: rgb(152, 0, 76);
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  .ToggleTabs p {
+    font-size: 0.9rem !important;
+    font-weight: 500;
+    color: rgb(152, 0, 76);
+  }
+}
+
+.ToggleTabs_active {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(152, 0, 76);
+}
+.ToggleTabs_active p {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .ToggleTabs_active p {
+    font-size: 0.7rem !important;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .ToggleTabs_active p {
+    font-size: 0.8rem !important;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  .ToggleTabs_active p {
+    font-size: 0.9rem !important;
+    font-weight: 500;
+  }
+}
+
+.DataTogleSection {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.DataTogleSection p {
+  font-size: 0.9rem !important;
+  color: #646464;
+}/*# sourceMappingURL=ToggleTabs.module.css.map */

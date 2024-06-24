@@ -1,0 +1,10 @@
+.FieldDiv {
+    width: 30rem;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.textSpan{
+    width: 13rem;
+}

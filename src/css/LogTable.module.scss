@@ -1,0 +1,95 @@
+@import "./veriables.module.scss";
+
+.mainContainer {
+  margin-top: 70px;
+  // margin-left: 100%;
+}
+
+.issuesTable {
+  display: flex;
+  justify-content: space-between;
+  @include paraFontdasktopMixin;
+  .LinkActiveText {
+    color: $active_text_color;
+    font-weight: $activeLinkTextFontWeight;
+  }
+}
+
+.filterWithDate {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+
+  .filterwithDate {
+    @include paraFontdasktopMixin;
+    cursor: pointer;
+    .datafilter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    & input {
+      margin-left: 10px;
+    }
+  }
+}
+
+// SWIPE BAR REACT
+.SidebarLogTable {
+  width: 100% !important;
+  padding: 0px !important;
+}
+
+.filterGraphFirstSctionTop {
+  cursor: pointer;
+  background-color: $filterButtonBackgroundColor;
+  padding: 10px;
+  border-radius: $buttonBorderRaduous;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: auto !important;
+  margin-right: 20px;
+  & svg {
+    &:hover {
+      color: $backgroundColor;
+    }
+  }
+}
+
+.filterGraphFirstSection {
+  cursor: pointer;
+  background-color: $filterButtonBackgroundColor;
+  padding: 10px;
+  border-radius: $buttonBorderRaduous;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: auto !important;
+
+  & svg {
+    &:hover {
+      transform: rotate(180deg) !important;
+      transition-duration: 0.5s;
+      color: $backgroundColor;
+    }
+  }
+}
+
+.productVersion {
+  padding: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: $backgroundColor;
+    width: 100%;
+    padding: 5px;
+    color: $defaultTextColor;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+}

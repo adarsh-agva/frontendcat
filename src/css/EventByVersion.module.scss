@@ -1,0 +1,10 @@
+@import "./veriables.module.scss";
+
+.EventByVersion {
+  & p {
+    @include paraFontdasktopMixin;
+  }
+}
+.Last90days {
+  @include paraFontdasktopMixin;
+}

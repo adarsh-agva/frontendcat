@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .loader_three {
+  border: 4px solid #fff;
+  border-top: 4px solid rgb(152, 0, 76);
+  /* Blue */
+  border-left: 4px solid rgb(152, 0, 76);
+  /* Blue */
+  border-bottom: 4px solid rgb(152, 0, 76);
+  /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(0.75);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.75);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(0.75);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.75);
+  }
+}/*# sourceMappingURL=SpinnerCustom.module.css.map */

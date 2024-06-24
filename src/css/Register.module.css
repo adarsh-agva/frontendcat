@@ -1,0 +1,106 @@
+.container {
+  margin-bottom: 5%;
+}
+.bannerImg {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.userInfoContainer {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2% 5%;
+  justify-content: space-between;
+}
+.userInputFiled {
+  padding: 15px;
+  width: 40%;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+.userInputFiledPwrd {
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+.selectInputFiled {
+  padding: 15px;
+  width: 40%;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+.submitBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 20%;
+  height: 2;
+  padding: 15px;
+  border-radius: 99px;
+  border: 0px;
+  background-color: rgb(152, 0, 76);
+  color: white;
+  font-size: 16px;
+}
+.backBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 20%;
+  height: 2;
+  padding: 15px;
+  border-radius: 99px;
+  border: 0.1px solid  rgb(152, 0, 76);
+  background-color:white;
+  color:  rgb(152, 0, 76);
+  font-size: 16px;
+}
+.btnContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  padding: 2% 5%;
+}
+@media screen and (max-width: 768px) {
+  .paragraph{
+    font-size: 12px;
+  }
+  .submitBtn{
+    width: 100%;
+  }
+  .backBtn{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .userInfoContainer {
+    flex-direction: column;
+  }
+  .userInputFiled {
+    width: 100%;
+  }
+  .userInputFiledPwrd {
+    width: 100%;
+  }
+  .selectInputFiled{
+    width: 100%;
+  }
+  .paragraph{
+    font-size: 12px;
+  }
+  .submitBtn{
+    width: 100%;
+  }
+  .backBtn{
+    width: 100%;
+  }
+}

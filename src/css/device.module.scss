@@ -1,0 +1,126 @@
+@import "./veriables.module.scss";
+@import "./mediaQuery.scss";
+
+.searchSection {
+  background-color: #efefef;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.224);
+
+  & input {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: solid rgb(226, 226, 226) 1px;
+    padding: 5px;
+    width: 60%;
+    height: 40px;
+  }
+
+  .filterGraphFirstSection {
+    cursor: pointer;
+    background-color: $active_text_color;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: auto !important;
+
+    & svg {
+      color: $defaultTextColor;
+      transition-duration: 0.5s;
+    }
+  }
+}
+
+.filterWithDate {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  @include paraFontdasktopMixin;
+  cursor: pointer;
+
+  .datafilter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & input {
+    margin-left: 10px;
+  }
+}
+
+.noDataFound {
+  width: 100%;
+  height: 100px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 1.3rem;
+}
+
+
+.productVersion {
+  padding: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $backgroundColor;
+    width: 100%;
+    margin: 5px;
+    color: $defaultTextColor;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+}
+
+.alertTable {
+
+  .tableHeader {
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 5% 25% 13% 25% 18% 18%;
+    font-weight: 500;
+    font-size: .9rem !important;
+    background-color: rgba(122, 122, 122, 0.082);
+
+    @include sm {
+      grid-template-columns: 5% 25% 13% 25% 18% 18%;
+    }
+
+    @include xl {
+      grid-template-columns: 5% 30% 13% 25% 15% 15%;
+    }
+
+    .innerHeader {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .tableBody {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.137);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 5% 25% 13% 25% 18% 18%;
+    font-size: .9rem;
+
+    @include sm {
+      grid-template-columns: 5% 25% 13% 25% 18% 18%;
+    }
+
+    @include xl {
+      grid-template-columns: 5% 30% 13% 25% 15% 15%;
+    }
+  }
+}

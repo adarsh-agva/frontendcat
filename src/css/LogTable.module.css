@@ -1,0 +1,87 @@
+.mainContainer {
+  margin-top: 70px;
+}
+
+.issuesTable {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem !important;
+  color: #646464;
+}
+.issuesTable .LinkActiveText {
+  color: rgb(152, 0, 76);
+  font-weight: 500;
+}
+
+.filterWithDate {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+}
+.filterWithDate .filterwithDate {
+  font-size: 0.9rem !important;
+  color: #646464;
+  cursor: pointer;
+}
+.filterWithDate .filterwithDate .datafilter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filterWithDate .filterwithDate input {
+  margin-left: 10px;
+}
+
+.SidebarLogTable {
+  width: 100% !important;
+  padding: 0px !important;
+}
+
+.filterGraphFirstSctionTop {
+  cursor: pointer;
+  background-color: #e2e2e2;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: auto !important;
+  margin-right: 20px;
+}
+.filterGraphFirstSctionTop svg:hover {
+  color: rgb(152, 0, 76);
+}
+
+.filterGraphFirstSection {
+  cursor: pointer;
+  background-color: #e2e2e2;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: auto !important;
+}
+.filterGraphFirstSection svg:hover {
+  transform: rotate(180deg) !important;
+  transition-duration: 0.5s;
+  color: rgb(152, 0, 76);
+}
+
+.productVersion {
+  padding: 5px;
+  cursor: pointer;
+}
+.productVersion:hover {
+  background-color: rgb(152, 0, 76);
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}/*# sourceMappingURL=LogTable.module.css.map */

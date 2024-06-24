@@ -1,0 +1,18 @@
+.CardCustomeOuter {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    top: 3% !important;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    top: 3% !important;
+  }
+  @media screen and (min-width: 1280px) and (max-width: 1400px) {
+    top: 4% !important;
+  }
+  @media screen and (min-width: 1400px) and (max-width: 1600px) {
+    top: 4% !important;
+  }
+  @media screen and (min-width: 1600px) and (max-width: 1920px) {
+    top: 4% !important;
+  }
+}
+
